@@ -4,3 +4,24 @@ frontend/node_modules/
 .env
 .next
 dist/
+
+# Secrets
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs
+*.log
+
+# Node
+build/
+out/
+.vercel/
+npm-debug.log*
+yarn-error.log*
